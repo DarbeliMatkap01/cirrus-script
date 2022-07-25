@@ -3,18 +3,18 @@ env: # Environment variables to pass to all tasks
     CIRRUS_WORKING_DIR: "/tmp/ci" # Where to clone the aosp-builder repo
 
 # store our secrets here
-    github_token: "ENCRYPTED[!82ee7e07446c86fe97dda507543443a525fec83e693679c8f84d740764987310d74262013f45a1e5a56cc54e334e8f7c!]"
-    bot_api: "ENCRYPTED[!10482e25ca82cf0efa74e4c474a9e5cb82c1b2e5545657dd1917cba34aa08ce880b37bef99a47d0a49c4bb48523144b9!]"
-    chat_id: "ENCRYPTED[!c519abe30864df229179faa4e1eeaa0fde992d896ed620d45cb1f2ca25f0ee3b9373d08fb64a737c8759ae592ef9351c!]"
+    github_token: "ENCRYPTED[!4f8fa2072eea8b85980e2a76661ba125c4bf3c0862fc413e0edf6d2d47ef8af904b7df5074b6157491ea8fa6ca3d047d!]"
+    bot_api: "ENCRYPTED[!b2ababea0cdc609e231658441c71276b7844485be06359abef6bc61e7cdd8d350bdf901ec018595839c15dae0300f5f6!]"
+    chat_id: "ENCRYPTED[!1a95e2193b6afb65c3d40845e8e2582fcddc4e7e975b7b82224326d6a188aad39bb1723f8a553edec97e4493a28e1203!]"
 
 # store information about git here
-    gmail: xyz@gmail.com
+    gmail: ismailduyan80@gmail.com
     
 # User Version ( dont touch )
     user_version: 2 # lets start from 1
 
 task:
-    name: aosp
+    name: havoc
     timeout_in: 260m
     container:
       dockerfile: Dockerfile
