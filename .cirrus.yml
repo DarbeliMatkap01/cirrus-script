@@ -21,7 +21,7 @@ task:
       cpu: 8
       memory: 32G
     download_ccache_background_script: # To download ccache in background
-      - curl -o /tmp/ci/function https://raw.githubusercontent.com/projects-nexus/cirrus-script/main/function
+      - curl -o /tmp/ci/function https://raw.githubusercontent.com/Headache01/cirrus-script/main/function
       - curl -o /tmp/ci/download_ccache https://raw.githubusercontent.com/projects-nexus/cirrus-script/main/download_ccache
       - bash download_ccache # Ccache download script
     sync_script:
