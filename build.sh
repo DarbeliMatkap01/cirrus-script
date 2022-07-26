@@ -8,3 +8,4 @@ export TZ=Asia/Kolkata
 compile_plox () {
 make bacon -j$(nproc --all)
 }
+device_codename=GM8_sprout
